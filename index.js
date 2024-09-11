@@ -24,7 +24,7 @@ app.listen(port, () => {
   console.log("listening on port 3000");
 });
 
-app.get("/about", (req, res) => {    // this learning routes
+app.get("/about", (req, res) => {    //  learning routes
   res.send("this is about page");
   console.log("about page");
 });
